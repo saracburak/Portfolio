@@ -1,0 +1,155 @@
+/* Temel Stil Ayarları */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  height: 100vh;
+  overflow: auto;
+  background-color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#home, #about {
+  margin: 0;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  #home {
+    padding: 10rem 1rem !important;
+    text-align: center;
+  }
+
+  #home h1 {
+    font-size: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  #home p {
+    font-size: 1rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  #home .cta {
+    font-size: 0.9rem !important;
+    padding: 0.7rem 1.5rem !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  #about {
+    padding: 6rem 1rem !important;
+  }
+
+  #about h2 {
+    font-size: 2rem !important;
+    margin-bottom: 1rem !important;
+    text-align: center !important;
+  }
+
+  #about p {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    padding: 0 !important;
+    padding-bottom: 1.5rem !important;
+    max-width: 90% !important;
+    margin: 0 auto !important; 
+    text-align: left !important; 
+  }
+}
+
+@media (max-width: 768px) {
+  #portfolio {
+    padding: 2rem 1rem !important;
+  }
+
+  #portfolio h2 {
+    font-size: 2rem !important;
+    margin-bottom: 1rem !important;
+    text-align: center !important;
+  }
+
+  .portfolio-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .project-card img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 0.5rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  #contact {
+    padding: 2rem 1rem;
+  }
+
+  #contact h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .form-field {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+
+  .form-field input,
+  .form-field textarea {
+    width: 100% !important;
+    font-size: 1rem !important;
+  }
+
+  .contact-form button {
+    padding: 0.8rem !important;
+    font-size: 1rem !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1rem !important;
+    text-align: center;
+  }
+
+  .social-icons {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 3rem !important;
+  }
+
+  
+ 
+}

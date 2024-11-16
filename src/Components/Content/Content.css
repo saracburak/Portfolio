@@ -1,0 +1,23 @@
+.content {
+    margin-left: 80px;
+    width: calc(100% - 80px);
+    padding: 0;
+    overflow-y: auto;
+    min-height: 100vh;
+}
+
+.section {
+    margin-bottom: 50px;
+    padding-left: 2rem; 
+}
+
+
+/* Küçük animasyon efektleri */
+.nav-link {
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
