@@ -1,0 +1,36 @@
+#about {
+    background-color: #e6e6e6; 
+    padding: 3rem 1rem;
+    margin: 0; 
+    width: 100%;
+}
+
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #00796b;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center; 
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #555555; 
+    max-width: 700px; 
+    line-height: 1.8;
+    text-align: justify; 
+    margin: 0 auto; 
+    padding: 0 1rem; 
+}
+
+
+#about h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #00796b;
+    margin: 10px auto 20px; 
+    border-radius: 2px;
+}
